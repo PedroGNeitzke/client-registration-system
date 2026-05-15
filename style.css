@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 20px;
+    background-color: var(--background);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --primary:#3B82F6;
+    --background:#0B1120;
+    --surface:#111827;
+    --border:#1F2937;
+    --text:#E2E8F0;
+    --muted:#94A3B8;
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+}
+
+.date{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    background-color: var(--surface);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width:60%;
+    height: 300px;
+    padding: 20px;
+    color: var(--text);
+    border-radius: 8px;
+}
+
+input{
+    width: 90%;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    background-color: var(--border);
+    color: var(--text);
+}
+
+#signup{
+    width: 50%;
+    height: 40px;
+    background-color: var(--border);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+#signup:hover{
+    background-color: var(--primary);
+}
+
+.client{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.client-card{
+    background-color: var(--surface);
+    padding: 20px;
+    border-radius: 10px;
+    color: var(--text);
+}
+
+.remove-btn{
+    width: 100%;
+    height: 30px;
+    background-color: var(--border);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.remove-btn:hover{
+    background-color: var(--primary);
+}
